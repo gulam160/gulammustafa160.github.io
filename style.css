@@ -55,3 +55,74 @@ justify-content: space-around;
     cursor: pointer;
     background-color: #fff;
 }
+
+#projects{
+    margin: 20px
+}
+#projects h2{
+    margin-bottom: 20px;
+}
+#projects div{
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .project-tech-stack {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .project-github-link,
+  .project-deployed-link {
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .project-github-link:hover,
+  .project-deployed-link:hover {
+    background-color: #333;
+  }
+  
