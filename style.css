@@ -1,5 +1,5 @@
 *{
-    margin: 0;padding: 0;box-sizing: border-box;
+    margin: 0;padding: 0;box-sizing: border-box; font-family: serif;
 }
 #nav-menu{
     padding: 15px;
@@ -26,4 +26,32 @@ justify-content: space-around;
 
 #home{
     margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.home-img{
+    width: 1000px;
+    border-radius: 50%;
+}
+#user-detail-name{
+    margin-top: 300px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#user-detail-intro{
+    margin-top: 10px;
+    font-size: 28px;
+}
+#resume-button-2{
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+#resume-button-2:hover{
+    cursor: pointer;
+    background-color: #fff;
 }
