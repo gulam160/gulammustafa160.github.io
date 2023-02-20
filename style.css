@@ -23,3 +23,7 @@ justify-content: space-around;
 #nav-menu ul li a:hover{
     color: rgb(159, 159, 231);
 }
+
+#home{
+    margin-top: 10px;
+}
