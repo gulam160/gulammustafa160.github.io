@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+#nav-menu{
+    padding: 15px;
+    background-color: black;
+}
+#nav-menu ul{
+display: flex;
+justify-content: space-around;
+}
+#nav-menu ul li{
+    list-style-type: none;
+    color: white;
+}
+#nav-menu ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+#nav-menu ul li a:hover{
+    color: rgb(159, 159, 231);
+}

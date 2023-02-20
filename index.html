@@ -4,9 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Portfolio</title>
   </head>
   <body>
-    <h1>Hello World! Adding the first HTML based portfolio here</h1>
+    <!-- Navbar -->
+    <nav id="nav-menu">
+      <ul>
+        <li><a class="nav-link home" href="#home">Home</a></li>
+        <li><a class="nav-link about" href="#about">About</a></li>
+        <li><a class="nav-link skills" href="#skills">Skills</a></li>
+        <li><a class="nav-link projects" href="#projects">Projects</a></li>
+        <li><a class="nav-link contact" href="#contact">Contact</a></li>
+        <li>
+          <a
+            class="nav-link resume"
+            href="path/to/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+      <img
+        class="home-img"
+        src="path/to/professional/photo.jpg"
+        alt="My professional photo"
+      />
+      <h1 id="user-detail-name">Your Name</h1>
+      <p id="user-detail-intro">Formal introduction goes here</p>
+      <a
+        id="resume-link-2"
+        href="path/to/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><button id="resume-button-2">View Resume</button></a
+      >
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about section">
+      <h2>About Me</h2>
+      <p>Details about yourself go here</p>
+      <a
+        id="resume-link-2"
+        href="path/to/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><button id="resume-button-2">View Resume</button></a
+      >
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-card">
+        <img
+          class="skills-card-img"
+          src="path/to/skill/image.jpg"
+          alt="Skill image"
+        />
+        <h3 class="skills-card-name">Skill Name</h3>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="path/to/project/image.jpg" alt="Project image" />
+        <h3 class="project-title">Project Title</h3>
+        <p class="project-description">Project description goes here</p>
+        <p class="project-tech-stack">Tech stack used: HTML, CSS, JS</p>
+        <a
+          class="project-github-link"
+          href="https://github.com/your_username/project_name"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub repository</a
+        >
+        <a
+          class="project-deployed-link"
+          href="https://your_project_deployed_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Deployed link</a
+        >
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <ul>
+        <li>
+          <a href="https://github.com/your-username" id="contact-github"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/your-username"
+            id="contact-linkedin"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="tel:+1234567890" id="contact-phone">+1 (234) 567-890</a>
+        </li>
+        <li>
+          <a href="mailto:youremail@example.com" id="contact-email"
+            >youremail@example.com</a
+          >
+        </li>
+      </ul>
+      <a
+        href="path/to/resume.pdf"
+        class="btn"
+        target="_blank"
+        id="resume-button-1"
+        >Download Resume</a
+      >
+    </section>
   </body>
 </html>
